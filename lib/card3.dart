@@ -25,8 +25,11 @@ class Card3 extends StatelessWidget {
           children: [
             Container(
               decoration: BoxDecoration(
-                  color: Colors.black.withOpacity(0.6),
-                  borderRadius: BorderRadius.all(Radius.circular(10))),
+                color: Colors.black.withOpacity(0.6),
+                borderRadius: BorderRadius.all(
+                  Radius.circular(10),
+                ),
+              ),
             ),
             Container(
               padding: const EdgeInsets.all(16),
